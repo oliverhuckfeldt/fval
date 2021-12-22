@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FVal Demo page</title>
+        <style>
+            body {
+                padding: 20px;
+            }
+
+            input, label {
+                display: block;
+            }
+
+            label {
+                margin-bottom: 5px;
+            }
+
+            input {
+                padding: 3px 7px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                margin-top: 7px;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="test-form">
+            <label>This field is Required</label>
+            <input type="text" required>
+            <label>This is an email field</label>
+            <input type="email">
+            <button type="submit">Absenden</button>
+        </form>
+        <script src="fval.js"></script>
+        <script>
+            const fval = new FVal('test-form');
+        </script>
+    </body>
+</html>

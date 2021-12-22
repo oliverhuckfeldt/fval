@@ -1,0 +1,9 @@
+{
+  "name": "fval",
+  "version": "0.0.1",
+  "description": "A Javascript form validator based on element attributes.",
+  "scripts": {},
+  "keywords": ["javascript", "form"],
+  "author": "Oliver Huckfeldt",
+  "license": "MIT"
+}
